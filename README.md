@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: List my registered phone numbers
-      uses: jakejarvis/twilio-action@master
+      uses: jakejarvis/twilio-action@develop
       with:
         args: phone-numbers:list
       env:
